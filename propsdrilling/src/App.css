@@ -1,0 +1,46 @@
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px; 
+  gap: 10px;
+   background-image: linear-gradient(to right, #2E3192, #1BFFFF);
+ background-image: linear-gradient(120deg, #00f2fe 0%, #4facfe 50%, #000000 100%), radial-gradient(circle at 80% 20%, #7f00ff, transparent 50%);
+ background-image: radial-gradient(circle at top left, #ff9a9e, transparent 50%), radial-gradient(circle at bottom right, #fecfef, transparent 50%), linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}
+
+.card {
+    width: 280px;
+    background-color: aliceblue;
+    height: 405px;
+    border-radius: 15px;
+    padding: 26px 22px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.top img {
+    margin-top: 20px;
+    height: 125px;
+    width: 125px;
+    border: none;
+    border-radius: 50%;
+}
+.top button {
+    height: 25px;
+    padding: 6px 9px;
+    border-radius: 14px;
+    border: none;
+    background-color: rgba(4, 172, 38, 0.824);
+    color: whitesmoke;
+}
+.top p {
+    font-weight: 500;
+    font-size: 17px;
+    
+}
