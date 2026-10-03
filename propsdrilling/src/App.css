@@ -44,3 +44,44 @@
     font-size: 17px;
     
 }
+.center {
+    text-align: center;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.center h2 {
+    font-weight: 500;
+    
+}
+.center h5{
+    color: grey;
+    font-weight: 400;
+}
+.center p {
+    margin-top: 6px;
+    font-size: 13px;
+    color :rgb(38, 38, 247);
+}
+.tag {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.tag1 {
+    padding: 6px 15px;
+    border: 1px solid grey;
+    background-color:white;
+    border-radius: 14px;
+}
+#tag2 {
+        padding: 6px 15px;
+    border: 1px solid grey;
+    background-color:rgb(4, 122, 248);
+    border-radius: 14px;
+    color: white;
+}
