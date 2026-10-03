@@ -85,3 +85,22 @@
     border-radius: 14px;
     color: white;
 }
+
+.para {
+    color: grey;
+    margin-top: 18px ;
+    text-align: center;
+}
+.bottom {
+     width: 94px;
+     margin: 33px auto 0 ;
+    border-top: 1.5px solid #dadada;
+}
+.buttombtn {
+    text-align: center;
+    margin: 24px auto 0;
+}
+#profile {
+      border: none;
+      font-weight: 600;
+}
