@@ -11,12 +11,18 @@
    background-image: linear-gradient(to right, #2E3192, #1BFFFF);
  background-image: linear-gradient(120deg, #00f2fe 0%, #4facfe 50%, #000000 100%), radial-gradient(circle at 80% 20%, #7f00ff, transparent 50%);
  background-image: radial-gradient(circle at top left, #ff9a9e, transparent 50%), radial-gradient(circle at bottom right, #fecfef, transparent 50%), linear-gradient(135deg, #a1c4fd, #c2e9fb);
+ background-image: 
+  radial-gradient(circle at 20% 20%, #ff416c 0%, transparent 40%),
+  radial-gradient(circle at 80% 40%, #ff8c00 0%, transparent 50%),
+  radial-gradient(circle at 40% 80%, #7f00ff 0%, transparent 60%),
+  radial-gradient(circle at 90% 90%, #00f2fe 0%, transparent 40%),
+  linear-gradient(135deg, #1e0034 0%, #0d001a 100%);
 }
 
 .card {
     width: 280px;
     background-color: aliceblue;
-    height: 405px;
+    height: 415px;
     border-radius: 15px;
     padding: 26px 22px;
 }
@@ -103,4 +109,5 @@
 #profile {
       border: none;
       font-weight: 600;
+
 }
